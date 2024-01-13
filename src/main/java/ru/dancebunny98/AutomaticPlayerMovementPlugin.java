@@ -32,7 +32,7 @@ public class AutomaticPlayerMovementPlugin extends JavaPlugin implements Listene
         YamlConfiguration yamlConfig = YamlConfiguration.loadConfiguration(configFile);
         pluginConfig = new PluginConfig();
 
-        pluginConfig.setWorldName(yamlConfig.getString("worldName", "world"));
+        pluginConfig.setWorldNames(yamlConfig.getStringList("worldNames"));
         pluginConfig.setX(yamlConfig.getInt("x", 0));
         pluginConfig.setY(yamlConfig.getInt("y", -60));
         pluginConfig.setZ(yamlConfig.getInt("z", 0));
