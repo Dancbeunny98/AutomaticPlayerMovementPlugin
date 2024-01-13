@@ -11,7 +11,10 @@ Minecraft plugin that will be useful as a utility for your purposes in the hub o
 
 # Config
 ```
-worldName: "world"
+worldNames:
+  - "world"
+  - "another_world"
+  - "yet_another_world"
 x: 0
 y: -60
 z: 0
