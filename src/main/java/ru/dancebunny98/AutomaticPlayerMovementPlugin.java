@@ -14,7 +14,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-public class AutomaticPlayerMovementPlugin1 extends JavaPlugin implements Listener {
+public class AutomaticPlayerMovementPlugin extends JavaPlugin implements Listener {
     private PluginConfig pluginConfig;
 
     @Override
