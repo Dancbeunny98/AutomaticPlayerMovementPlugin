@@ -3,19 +3,19 @@ package ru.dancebunny98;
 import java.util.List;
 
 public class PluginConfig {
-    private String worldName;
+    private List<String> worldNames;
     private int x;
     private int y;
     private int z;
     private float yaw;
     private float pitch;
 
-    public String getWorldName() {
-        return worldName;
+    public List<String> getWorldNames() {
+        return worldNames;
     }
 
-    public void setWorldName(String worldName) {
-        this.worldName = worldName;
+    public void setWorldNames(List<String> worldNames) {
+        this.worldNames = worldNames;
     }
 
     public int getX() {
