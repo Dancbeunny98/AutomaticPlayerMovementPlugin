@@ -10,6 +10,8 @@ public class PluginConfig {
     private float yaw;
     private float pitch;
 
+    private List<String> allowedMaterialsInventory;
+
     public List<String> getWorldNames() {
         return worldNames;
     }
@@ -58,6 +60,13 @@ public class PluginConfig {
         this.pitch = pitch;
     }
 
+    public List<String> getAllowedMaterialsInventory() {
+        return allowedMaterialsInventory;
+    }
+
+    public void setAllowedMaterialsInventory(List<String> allowedMaterialsInventory) {
+        this.allowedMaterialsInventory = allowedMaterialsInventory;
+    }
     private List<String> allowedMaterials;
 
     public List<String> getAllowedMaterials() {

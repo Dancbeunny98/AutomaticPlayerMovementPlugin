@@ -11,3 +11,5 @@ allowedMaterials:
   - "WATER"
   - "LAVA"
 minY: -63.0
+allowedMaterialsInventory:
+  - RED_BED

@@ -2,3 +2,9 @@ name: AutomaticPlayerMovementPlugin
 version: '${version}'
 main: ru.dancebunny98.AutomaticPlayerMovementPlugin
 api-version: '1.19'
+commands:
+  apmp:
+    usage: /apmp
+permissions:
+  apmp.reload:
+    default: true
