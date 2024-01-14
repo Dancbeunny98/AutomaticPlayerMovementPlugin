@@ -10,6 +10,14 @@ Minecraft plugin that will be useful as a utility for your purposes in the hub o
 - Where will the player look after moving?
 - If you specify an inventory item check, teleportation will not occur!
 
+# Commands
+
+- `/apmp reload` - Plugin reloaded command
+
+# Permissions
+
+- `apmp.reload` - Plugin reloaded command permission
+
 # Config
 ```
 worldNames:
