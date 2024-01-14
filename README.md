@@ -8,6 +8,7 @@ Minecraft plugin that will be useful as a utility for your purposes in the hub o
 - The minimum height at which the player will be returned to the coordinates you specified!
 - What material will return the player to the coordinates you specified
 - Where will the player look after moving?
+- If you specify an inventory item check, teleportation will not occur!
 
 # Config
 ```
@@ -24,4 +25,6 @@ allowedMaterials:
   - "WATER"
   - "LAVA"
 minY: -63.0
+allowedMaterialsInventory:
+  - RED_BED
 ```
